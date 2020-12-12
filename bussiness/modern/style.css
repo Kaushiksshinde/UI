@@ -25,8 +25,9 @@
 nav{
     width: 100%; height: 100px;
     /*background-color:  red;*/
-    display: flex; color: white;
-    
+    display: flex;
+    color: white;
+   
 }
 
 .logo{
@@ -40,7 +41,10 @@ nav{
 }
 
 .menu{
-    width: 50%; height: 100px;
+    width: 50%; 
+    height: 100px;
+    
+  
 }
 
 .menu ul{
@@ -50,20 +54,28 @@ nav{
     flex-direction: row;
     justify-content: space-around;
     align-items:  center;
+    overflow: hidden;
 }
 
 .menu ul li{
     list-style: none;
-    font-size: 12px;
+    font-size: 17px;
     font-weight: bold;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
-section{ display: flex;  }
+section{ 
+    display: flex; 
+    padding: 30px;
+ }
 
 .leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px;}
 
-.leftside img{  width: 600px;  height: 500px; }
+.leftside img{ 
+     width: 100%; 
+     height: auto; 
+    }
 
 .rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
 
