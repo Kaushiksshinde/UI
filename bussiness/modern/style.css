@@ -75,6 +75,8 @@ section{
 .leftside img{ 
      width: 100%; 
      height: auto; 
+     margin-bottom: 15%;
+     margin-left: 10%;
     }
 
 .rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 80px; padding: 40px;}
