@@ -1,0 +1,111 @@
+@media only screen and (min-width:992px) and (max-width:1199px) {}
+@media only screen and (min-width:768px) and (max-width:991px) {
+.main-footer .footer-addres-box h2{
+	font-size: 16px;
+}
+.main-footer .footer-addres-box h3{
+	font-size: 21px;
+}
+}
+@media only screen and (min-width:480px) and (max-width:767px) {
+.main-footer .footer-top{
+	margin-top: 30px;
+}
+.main-footer .footer-text{
+	padding-bottom: 10px;
+}
+.main-footer .footer-text h1{
+	margin:0px;
+	padding:10px 20px;
+	border-top: 1px solid #f00;
+	cursor: pointer;
+}
+.main-footer .footer-text h1:after{
+	float: right;
+	margin-right: 10px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 7px;
+	width: 7px;
+	height: 7px;
+	border-top:2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+	-webkit-transition: transform .5s;
+	transition: transform .5s;
+}
+.hide-footer-menu{
+	max-height: 0px;
+	overflow: hidden;
+	padding: 0px 20px;
+}
+.main-footer .footer-text.active h1:after{
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.main-footer .footer-text.active .hide-footer-menu{
+   max-height: 10000px;
+}
+.main-footer .footer-addres-box{
+	margin-bottom: 10px;
+}
+}
+@media only screen and (min-width:320px) and (max-width:479px) {
+.main-footer .footer-top{
+	margin-top: 30px;
+}
+.main-footer .footer-text{
+	padding-bottom: 10px;
+}
+.main-footer .footer-text h1{
+	margin:0px;
+	padding:10px 20px;
+	border-top: 1px solid #f00;
+	cursor: pointer;
+}
+.main-footer .footer-text h1:after{
+	float: right;
+	margin-right: 10px;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 7px;
+	width: 7px;
+	height: 7px;
+	border-top:2px solid #fff;
+	border-right: 2px solid #fff;
+	-webkit-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+	-webkit-transition: transform .5s;
+	transition: transform .5s;
+}
+.hide-footer-menu{
+	max-height: 0px;
+	overflow: hidden;
+	padding: 0px 20px;
+}
+.main-footer .footer-text.active h1:after{
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+.main-footer .footer-text.active .hide-footer-menu{
+   max-height: 10000px;
+}
+.main-footer .footer-addres-box{
+	margin-bottom: 10px;
+}
+}
